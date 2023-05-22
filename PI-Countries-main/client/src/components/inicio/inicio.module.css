@@ -1,0 +1,63 @@
+body{
+    /* para referencia sin llamar al jsx neceito crear un body en el module  en la imagen*/
+    background-image: url(./atlas1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inicio
+{
+    display: "flex";
+    flex-Direction: "column";
+    align-Items: "center" ;
+   
+}
+
+.inicio img
+{   
+    position:absolute;
+    max-width:100%;
+    max-height: 100%;
+    width:auto;
+    height: auto;
+    z-index: 1;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.inicio button
+{
+    animation: blink 1s infinite;
+    position: absolute;
+    border-radius: 20%;
+    bottom: 63%;
+    left: 45%;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background-color: #4286f4; */
+
+
+}
+
+.inicio h1
+{
+    position: absolute;
+        bottom:80%;
+        left: 40%;
+        color: #afd40a8a;
+}
+

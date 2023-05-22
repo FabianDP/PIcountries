@@ -1,0 +1,12 @@
+.home{
+    padding: 5px;
+    border: solid 1px black;
+     background-color: rgba(255, 235, 205, 0.39);   
+    
+}
+
+.home select
+{
+    background-color: rgba(250, 161, 203, 0.625);
+   
+}

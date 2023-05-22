@@ -1,0 +1,81 @@
+/* .card{
+    display: "flex";
+    flex-Direction: "column";
+    align-Items: "center" ;
+    border:  solid 1px black;
+} */
+/* contenedor completo  */
+body{
+  width: 100%;
+  background-color: rgba(167, 130, 130, 0.716);
+  box-shadow: 0 4px 8px 0 rgba(91, 54, 54, 0.2),
+    0 6px 20px 0 rgba(74, 55, 55, 0.19);
+}
+.polaroid { 
+  width: 100%;
+  background-color: rgba(167, 130, 130, 0.716);
+  box-shadow: 0 4px 8px 0 rgba(91, 54, 54, 0.2),
+    0 6px 20px 0 rgba(74, 55, 55, 0.19);
+}
+
+.img {
+  width: 55%;
+}
+.img img {
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 30%;
+}
+/* texto detail */
+.contenedor {
+  text-align: center;
+  padding: 2px 20px;
+
+}
+.p h1{
+  width: 100%;
+ padding-bottom: 15%;
+  
+}
+/* 
+.card img
+{
+    display: flex;
+    max-width:5%;
+    max-height: 5%;
+    justify-content: center;
+    width:auto;
+    height: auto;
+    z-index: 1;
+}
+
+.card h1{
+    max-width:5%;
+    max-height: 5%;
+    display: flex;
+    justify-content:  center;
+    width:auto;
+    height: auto;
+ 
+}
+
+.card h3 {
+    max-width:5%;
+    max-height: 5%;
+    display: flex;
+    justify-content:  center;
+    width:auto;
+    height: auto;
+
+}
+
+.card p{
+    max-width:50%;
+    max-height: 50%;
+    display: flex;
+    justify-content:  center;
+    width:auto;
+    height: auto;
+} */

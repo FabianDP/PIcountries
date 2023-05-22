@@ -1,0 +1,22 @@
+.nav{
+    border: solid 1px black;
+    background-color: rgba(255, 235, 205, 0.357);
+}
+.left{
+    float: left;
+    background-color: aqua;
+}
+.right{
+    float: right;
+    background-color: aqua;
+}
+
+.nav button
+{
+    color: black;
+background-color: rgb(170, 173, 137);
+margin-top: 0.5%;
+width: 5%;
+height: 10%;
+
+}

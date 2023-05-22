@@ -1,0 +1,30 @@
+.detail-container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 0 0 auto; /* Establece un ancho fijo */
+    /* padding: 10%; */
+    /* padding-right: 25%; */
+  }
+  
+  .image-container img {
+    width:800px;
+    height: 800px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+  }
+  .content-container {
+    padding: 0.5%;
+    flex: 2; /* Toma todo el espacio restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(231, 225, 225);
+    background-color: rgba(100, 13, 13, 0.502);
+    border: solid 1px rgb(11, 10, 10);
+  }
+  .content-container label{
+   color: rgb(212, 208, 208);
+  }
